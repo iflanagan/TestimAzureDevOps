@@ -15,7 +15,7 @@ steps:
     --test-plan "AzureDevops" \
     --mode selenium \
     --report-file "testim-report.xml" \
-    --parallel 1
+    --parallel 4
 
 
   displayName: 'run tests'
