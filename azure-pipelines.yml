@@ -11,7 +11,7 @@ steps:
     testim \
     --token $(TestimToken) \
     --project $(TestimProject) \
-    --grid "Testim-Grid" \
+    --grid "TESTIM-HA-GRID" \
     --report-file testim-tests-report.xml \
     --test-plan "AzureDevops" \
     --mode selenium \
