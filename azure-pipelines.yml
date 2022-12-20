@@ -6,12 +6,9 @@ steps:
   displayName: 'Install Node.js'
 - script: |
     npm install -g @testim/testim-cli
+    myBuildNum=$(echo $(Build.BuildNumber) | sed -e 's/^.*\(.\)$/\1/')
   displayName: 'npm install testim-cli'
 - script: |
-
-myBuildNum=$(echo $(Build.BuildNumber) | sed -e 's/^.*\(.\)$/\1/')
-echo $myBuildNum
-
     testim \
     --token $(TestimToken) \
     --project $(TestimProject) \
