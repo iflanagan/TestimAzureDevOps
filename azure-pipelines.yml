@@ -19,5 +19,5 @@ steps:
     --mode selenium \
     --report-file "testim-report.xml" \
     --parallel 5 \
-    --result-label "AzureDevops Build:  $(Build.BuildNumber)" \
+    --result-label "AzureDevops Build:  $(myBuildNum)" \
     --turbo-mode
