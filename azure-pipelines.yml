@@ -8,6 +8,10 @@ steps:
     npm install -g @testim/testim-cli
   displayName: 'npm install testim-cli'
 - script: |
+
+myBuildNum=$(echo $(Build.BuildNumber) | sed -e 's/^.*\(.\)$/\1/')
+echo $myBuildNum
+
     testim \
     --token $(TestimToken) \
     --project $(TestimProject) \
