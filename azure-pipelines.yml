@@ -21,6 +21,4 @@ steps:
     --report-file "testim-report.xml" \
     --parallel 5 \
     --result-label "AzureDevops Build:  $(Date:yyyyMMdd).$(Rev:r)" \
-    --tunnel \ 
-    --tunnel-diagnostics \
     --turbo-mode
