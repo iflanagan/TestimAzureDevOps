@@ -17,7 +17,7 @@ steps:
     --grid "TESTIM-HA-GRID" \
     --report-file testim-tests-report.xml \
     --test-plan "AzureDevops" \
-    --mode selenium \
+    --mode "selenium" \
     --report-file "testim-report.xml" \
     --parallel 5 \
     --result-label "ADO pipeline" \
