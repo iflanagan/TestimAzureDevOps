@@ -20,6 +20,6 @@ steps:
     --mode selenium \
     --report-file "testim-report.xml" \
     --parallel 5 \
-    --result-lablel "ADO pipeline" \
+    --result-label "ADO pipeline" \
     --result-label $myBuildNum \
     --turbo-mode
