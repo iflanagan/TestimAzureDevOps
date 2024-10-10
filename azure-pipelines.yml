@@ -12,8 +12,8 @@ steps:
     myBuildNum=$(echo $(Build.BuildNumber) | sed -e 's/^.*\(.\)$/\1/')
     echo "Build Number is : "  $myBuildNum
     testim \
-    --token $(TestimToken) \
-    --project $(TestimProject) \
+    --token $(Token) \
+    --project $(Project) \
     --grid "testim-ha-grid" \
     --report-file testim-tests-report.xml \
     --test-plan "AzureDevops" \
