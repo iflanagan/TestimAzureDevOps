@@ -14,7 +14,7 @@ steps:
     testim \
     --token $(TestimToken) \
     --project $(TestimProject) \
-    --grid "TESTIM-HA-GRID" \
+    --grid "testim-ha-grid" \
     --report-file testim-tests-report.xml \
     --test-plan "AzureDevops" \
     --report-file "testim-report.xml" \
